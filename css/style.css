@@ -2,7 +2,6 @@
 
 * {
   box-sizing: border-box;
-  /* Включаем padding и border в общую ширину/высоту */
 }
 
 ::-webkit-scrollbar {
@@ -13,7 +12,7 @@ body {
   overflow-y: auto;
   scrollbar-width: none;
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
 
 .container {
@@ -24,6 +23,7 @@ body {
   width: 100%;
   flex-wrap: nowrap;
   height: 100%;
+  position: relative;
 }
 
 @media (max-width: 768px) {
