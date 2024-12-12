@@ -1,0 +1,127 @@
+.author {
+    width: 100%;
+    height: 736px;
+
+    background-color: white;
+}
+
+.author-parent {
+    width: 100%;
+    height: 556px;
+
+    display: flex;
+
+    /* background-color: aqua; */
+}
+
+.author-title {
+    font-family: "Russo One", serif;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.author-text {
+    line-height: 30px;
+    margin-top: 16px;
+    font-family: "Muller", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.author-text span {
+    font-family: "Muller", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.author-title-lore {
+    line-height: 24.1px;
+    margin-top: 16px;
+    font-family: "Russo One", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.author-gloves {
+    margin-top: 32px;
+}
+
+.author-linkwork {
+    width: 624px;
+    height: 342px;
+    border-radius: 40px;
+    background-color: #EDEDF2;
+
+    display: flex;
+    flex-direction: column; /* Располагает элементы в столбец */
+    align-items: center; /* Центрирует элементы по горизонтали */
+    justify-content: center; /* Центрирует элементы по вертикали */
+}
+
+.author-link img {
+    width: 100px;
+    height: 100px;
+
+    cursor: pointer;
+}
+
+.author-linkwork p {
+    font-family: "Muller", sans-serif;
+    font-size: 20px;
+    color: #95959D;
+    font-weight: 400;
+
+    margin: 0;
+    margin-top: 16px;
+}
+
+.author-right {
+    margin-left: 32px;
+}
+
+.telegram-nickname {
+    width: 624px;
+    height: 70px;
+
+    margin-top: 32px;
+
+    background-color: #EDEDF2;
+    border-radius: 40px;
+
+    font-family: "Muller", sans-serif;
+    font-size: 20px;
+    color: #717178;
+    font-weight: 400;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+    padding-left: 32px;
+    cursor: pointer;
+}
+
+.author-send {
+    margin-top: 32px;
+
+    background-color: #46F4DB;
+    width: 296px;
+    height: 70px;
+
+    border-radius: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Muller", sans-serif;
+    font-size: 20px;
+    color: #07060B;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+

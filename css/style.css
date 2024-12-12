@@ -11,18 +11,23 @@
 body {
   overflow-y: auto;
   scrollbar-width: none;
+  
   margin: 0;
   padding: 0; 
 }
 
 .container {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
+
   padding: 0 15%;
   width: 100%;
+
   flex-wrap: nowrap;
   height: 100%;
+
   position: relative;
 }
 

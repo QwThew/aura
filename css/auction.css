@@ -1,0 +1,96 @@
+.auc-card-parent {
+    width: 624px;
+    height: 174px;
+    grid-gap: 0;
+}
+
+#auc-font {
+    font-family: "Muller", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.auc-card-logo {
+    width: 296px;
+    height: 174px;
+
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+    background-color: #EDEDF2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 7px 68px;
+}
+
+.auc-card-image img {
+    width: 160px;
+    height: 160px;
+}
+
+.auc-card {
+    width: 296px;
+    height: 168px;
+
+    background-color: #000000;
+    
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.auc-small-name {
+    display: flex;
+
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.auc-small-name p {
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+
+    margin-left: 8px;
+    
+    justify-content: center;
+    text-align: center;
+
+    color: white;
+    font-family: "Muller", sans-serif;
+}
+
+.auc-small-name img {
+    width: 24px;
+    height: 24px;
+}
+
+.auc-name {
+    color: white;
+}
+
+.auc-eth {
+    color: #46F4DB;
+}
+
+.auc-expire-time {
+    color: #95959D;
+
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+
