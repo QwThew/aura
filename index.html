@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="css/topsales.css">
     <link rel="stylesheet" href="css/author.css">
     <link rel="stylesheet" href="css/mailing.css">
-    <!-- <link rel="stylesheet" href="css/auction.css"> -->
+    <link rel="stylesheet" href="css/newstick.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/auction.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,8 +23,108 @@
 
 <body>
 
-    <div class="temp">
 
+    <header>
+        <div class="head-menu">
+            <div class="logo">
+                <img src="img/Vector.png" alt="">
+            </div>
+            <div class="links">
+                <a href="" id="borderlink">Авторы</a>
+                <a href="">Коллекции </a>
+                <a href="">Сервисы</a>
+            </div>
+            <div class="wallet-button">
+                <img src="img/Black_button = default.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- ДИВ ПОД ХЕДЕРОМ -->
+    <div class="container-about">
+        <div class="textnbuttons">
+            <div class="text">
+                <p>Площадка для реализации криптостикеров</p>
+            </div>
+            <div class="buttons">
+                <img src="img/Component 2.png" alt="">
+                <img src="img/Component 3.png" alt="">
+            </div>
+        </div>
+        <div class="img-stickers">
+            <div><img src="img/stickers_hero.png" alt=""></div>
+        </div>
+    </div>
+    <!-- ДИВ АУКЦИОНА -->
+    <div class="auction-container">
+        <div class="container">
+            <!-- ДИВ МЕЙН АУКЦИОНА С ЛОГО -->
+            <div class="main-auction">
+                <div class="title">
+                    <p>Аукцион</p>
+                    <div class="live">
+                        <img src="img/Frame 2.png" alt="">
+                    </div>
+                </div>
+                <div class="main-auction-card">
+                    <div class="logo-auction">
+                        <img src="img/Witcher-3 1 (1).png" alt="">
+                    </div>
+                    <div class="right-part-card">
+                        <div class="button-user-bet">
+                            <div class="user-imgntext">
+                                <img src="img/Ellipse 2.png" alt="">
+                                <p>Serge_VM222</p>
+                            </div>
+                        </div>
+                        <p class="text-card-rightpart">
+                            Witcherrr_3 (xml_t5)
+                        </p>
+                        <div class="betntimer-container">
+                            <div class="betinfo">
+                                <div class="betinfo-bet">Ставка:</div>
+                                <div class="betinfo-eth">0.10 ETH</div>
+                                <div class="betinfo-dollar">$351.24</div>
+                            </div>
+                            <div class="timer-container">
+                                <div class="timer-text">
+                                    <p>Окончание через:</p>
+                                    <div class="timer">
+                                        <p class="hours">01</p> <span>Час</span>
+                                        <p class="minutes">48</p> <span>Мин</span>
+                                        <p class="seconds">47 </p> <span>Сек</span>
+                                    </div>
+                                </div>
+                                <div class="timer-icon">
+                                    <img src="img/clock.svg" alt="Clock Icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="makeabet-but">Cделать ставку</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="stick">
+        <div class="container">
+            <div class="stick-parent">
+                <div class="stick-title">
+                    <img src="img/fire.svg" alt="">
+                    <p>Новые стикеры</p>
+                </div>
+                <div class="stickers">
+                    <img src="img/stick1.svg" alt="">
+                    <img src="img/stick2.svg" alt="">
+                    <img src="img/stick3.svg" alt="">
+                </div>
+
+
+            </div>
+
+        </div>
     </div>
 
     <div class="mailing">
@@ -34,7 +136,7 @@
                     <div class="mailing-email" id="mailing-center">E-mail</div>
                     <div class="mailing-subscribe">Подписаться</div>
                     <div class="mailing-data">
-                        <input type="checkbox"> 
+                        <input type="checkbox">
                         <p>Согласен на обработку персональных данных</p>
                     </div>
                 </div>
@@ -181,22 +283,22 @@
 
     <section class="info-top">
         <div class="container">
-            <div class="title">
+            <div class="info-title">
                 <h1>Для попадания в топ необходимо:</h1>
-                <div class="li">
+                <div class="info-li">
                     <img src="img/folder.svg" alt="">
                     <p>Минимум пять опубликованных работ</p>
                 </div>
-                <div class="li">
+                <div class="info-li">
                     <img src="img/smile.svg" alt="">
                     <p>Инвайт трём коллегам по цеху</p>
                 </div>
-                <div class="li">
+                <div class="info-li">
                     <img src="img/verif.svg" alt="">
                     <p>Верифицированный аккаунт</p>
                 </div>
             </div>
-            <div class="smiles">
+            <div class="info-smiles">
                 <img src="img/bigsmile.svg" alt="">
                 <img src="img/bigsmile.svg" alt="">
                 <img src="img/bigsmile.svg" alt="">
@@ -213,7 +315,7 @@
                     <h1>AURA</h1>
                     <h2>stickers collection</h2>
                 </div>
-                <div class="links">
+                <div class="linkss">
                     <a href="/">Соглашение</a>
                     <a href="/">Лицензия</a>
                     <a href="/">FAQ</a>
@@ -225,6 +327,7 @@
         </div>
     </footer>
 
+    <script src="js/timer.js"></script>
 </body>
 
 </html>
